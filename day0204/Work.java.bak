@@ -1,0 +1,16 @@
+class Work {
+	public static void main(String[] args) {
+		
+		double left Eye = 0;
+		double right Eye = 0;
+		double all Eyes = 0;
+		left Eye = 1.5;
+		right Eye = 1.2;
+		all Eyes =  (left Eyes + right Eye)/2;
+
+		System.out.println("¿Þ´«½Ã·Â ="  + left Eye);
+		System.out.println("¿À¸¥´«½Ã·Â =" + right Eye);
+		System.out.println("¾ç¾È½Ã·Â ="+ all Eyes);
+	
+	}
+}

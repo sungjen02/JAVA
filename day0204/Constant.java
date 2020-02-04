@@ -1,0 +1,23 @@
+/**
+	Constant : 변수를 상수처럼 사용 할 때
+*/
+
+class  Constant{
+
+	//Constant 선언
+	public static final int MAX_SCORE=100;
+	public static final int MIN_SCORE=0;
+
+	public static void main(String[] args) {
+		//MAX=SCORE=90; //상수의 값은 변경할 수 없다.
+		System.out.println("최고점수 : " + MAX_SCORE); //상수명만 사용
+		System.out.println("최하점수 : " + Constant.MIN_SCORE); //클래스명.상수명
+
+		int myScore=95;
+
+		System.out.println("최고점수 : " + Constant.MAX_SCORE + 
+			", 획득점수 : " + myScore + ", 최고점수와 획득점수의 차 : " + 
+			(Constant.MAX_SCORE-myScore));
+
+	}//main
+}//class
